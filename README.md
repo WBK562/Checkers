@@ -13,3 +13,9 @@ A classic desktop implementation of the Checkers board game, developed using **J
 - **Language:** Java 17+
 - **Version Control:** Git
 - **IDE:** IntelliJ IDEA
+
+## 🧠 Key Learnings
+# During this project, I focused on:
+- **Object-Oriented Programming (OOP): Encapsulating game logic, board state, and player actions.**
+- **Event Handling: Managing mouse clicks and GUI updates in real-time.**
+- **Resource Loading: Efficiently handling and scaling .png files within a Java application.**
