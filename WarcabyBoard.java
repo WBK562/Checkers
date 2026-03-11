@@ -23,10 +23,10 @@ public class WarcabyBoard extends JFrame {
     private final Color darkColor = new Color(181, 136, 99);
     private final int iconWidth = 40;
     private final int iconHeight = 40;
-    private ImageIcon scaledWhiteIcon = scaleIcon(new ImageIcon("X.png"), iconWidth, iconHeight);
-    private ImageIcon scaledBlackIcon = scaleIcon(new ImageIcon("O.png"), iconWidth, iconHeight);
-    private ImageIcon scaledWhiteQueenIcon = scaleIcon(new ImageIcon("XQ.png"), iconWidth, iconHeight);
-    private ImageIcon scaledBlackQueenIcon = scaleIcon(new ImageIcon("OQ.png"), iconWidth, iconHeight);
+    private ImageIcon scaledWhiteIcon = scaleIcon(new ImageIcon("res/X.png"), iconWidth, iconHeight);
+    private ImageIcon scaledBlackIcon = scaleIcon(new ImageIcon("res/O.png"), iconWidth, iconHeight);
+    private ImageIcon scaledWhiteQueenIcon = scaleIcon(new ImageIcon("res/XQ.png"), iconWidth, iconHeight);
+    private ImageIcon scaledBlackQueenIcon = scaleIcon(new ImageIcon("res/OQ.png"), iconWidth, iconHeight);
 
 
     public WarcabyBoard(){
@@ -119,3 +119,4 @@ public class WarcabyBoard extends JFrame {
         return Label;
     }
 }
+
